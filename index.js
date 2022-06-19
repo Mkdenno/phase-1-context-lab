@@ -1,10 +1,10 @@
 /* Your Code Here */
-function createEmployeeRecord(worker) {
+function createEmployeeRecord(record) {
     let employeeRecord = {
-        firstName: worker[0],
-        familyName: worker[1],
-        title: worker[2],
-        payPerHour: worker[3],
+        firstName: record[0],
+        familyName: record[1],
+        title: record[2],
+        payPerHour: record[3],
         timeInEvents: [],
         timeOutEvents: [],
     }
